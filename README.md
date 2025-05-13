@@ -1,2 +1,2 @@
-# forest
+# Voxel Forest
 Voxel Forest
