@@ -2788,13 +2788,13 @@ end
 <Window x:Class="YourNamespace.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/1286/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/1286/xaml"
-        Title="window" Width="128" Height="128">
+        Title="window" Width="1920" Height="1080">
 
 	<Window.Resources>
 		<FontFamily x:Key="ThemeFont">pack://application:,,,/resources/forest/fonts/star_force.ttf</FontFamily>
 	</Window.Resources>
 
-	<Canvas x:Name="hud" Width="128" Height="128" Background="Transparent">
-		<Image x:Name="mode13h" Canvas.Left="0" Canvas.Top="0" Width="128" Height="128" Source="pack://application:,,,/resources/forest/hud/game_pause.png" />
+	<Canvas x:Name="hud" Width="1920" Height="1080" Background="Transparent">
+		<Image x:Name="mode13h" Canvas.Left="0" Canvas.Top="0" Width="1920" Height="1080" Source="pack://application:,,,/resources/forest/hud/game_pause.png" />
 	</Canvas>
 </Window>
